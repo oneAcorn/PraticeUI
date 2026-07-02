@@ -1,5 +1,25 @@
 [gd_scene format=3 uid="uid://d23eyipa4rxpw"]
 
+[ext_resource type="Script" uid="uid://dcev8lkuif63y" path="res://my_container.gd" id="1_fyqef"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xb563"]
+content_margin_left = 10.0
+content_margin_top = 10.0
+content_margin_right = 10.0
+content_margin_bottom = 10.0
+bg_color = Color(9.62615e-08, 0.68439144, 0.7021794, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(3.85046e-07, 0.18528539, 0.12032261, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_size = 4
+shadow_offset = Vector2(3, 5)
+
 [node name="Control" type="Control" unique_id=869195240]
 layout_mode = 3
 anchors_preset = 15
@@ -13,3 +33,28 @@ layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 text = "dfsafdsagsdagasdf中文"
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=1711952375]
+layout_mode = 0
+offset_left = 3.0
+offset_top = 34.0
+offset_right = 228.0
+offset_bottom = 221.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_xb563")
+
+[node name="Label" type="Label" parent="PanelContainer" unique_id=907633593]
+layout_mode = 2
+size_flags_vertical = 1
+text = "asdlagagsdfwe"
+
+[node name="Container" type="Container" parent="." unique_id=347413035]
+layout_mode = 0
+offset_left = 329.0
+offset_top = 48.0
+offset_right = 464.0
+offset_bottom = 193.0
+script = ExtResource("1_fyqef")
+
+[node name="Button" type="Button" parent="Container" unique_id=1399942266]
+layout_mode = 2
+text = "sdagasdg"
