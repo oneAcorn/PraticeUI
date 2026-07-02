@@ -1,0 +1,3 @@
+keys,en,zh
+HELLO_WORLD,"hello,world","我有个引号"",我还有,逗号"
+WITHOUT_SPECIAL_CHARACTER,normal english,我没有特殊字符 比如逗号引号

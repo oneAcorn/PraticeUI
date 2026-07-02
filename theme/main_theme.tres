@@ -1,0 +1,7 @@
+[gd_resource type="Theme" format=3 uid="uid://bwvbi0w467oby"]
+
+[ext_resource type="FontVariation" uid="uid://bq455v254jksg" path="res://font/font_variation.tres" id="1_afw5t"]
+
+[resource]
+default_font = ExtResource("1_afw5t")
+default_font_size = 0

@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://by1ms8niv11ig"]
+
+[ext_resource type="Script" uid="uid://8aq6xwcmkngn" path="res://i_18n.gd" id="1_lhgwc"]
+
+[node name="I18n" type="Control" unique_id=1711348513]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_lhgwc")
+
+[node name="Hello" type="Label" parent="." unique_id=1606927890]
+layout_mode = 0
+offset_left = 242.0
+offset_top = 31.0
+offset_right = 350.0
+offset_bottom = 55.0
+text = "HELLO_WORLD"
+
+[node name="English" type="Button" parent="." unique_id=878030733]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 20.0
+offset_right = 127.0
+offset_bottom = 57.0
+text = "English"
+
+[node name="Chinese" type="Button" parent="." unique_id=1523785672]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 80.0
+offset_right = 131.0
+offset_bottom = 114.0
+text = "Chinese"
+
+[node name="TextLabel" type="Label" parent="." unique_id=2072951349]
+layout_mode = 0
+offset_left = 162.0
+offset_top = 140.0
+offset_right = 531.0
+offset_bottom = 336.0
+text = "This text is being translated through script:
+"
+
+[connection signal="pressed" from="English" to="." method="_on_english_pressed"]
+[connection signal="pressed" from="Chinese" to="." method="_on_chinese_pressed"]

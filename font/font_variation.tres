@@ -1,0 +1,12 @@
+[gd_resource type="FontVariation" format=3 uid="uid://bq455v254jksg"]
+
+[ext_resource type="FontFile" uid="uid://bttv1e1r1eht2" path="res://font/DroidSans.ttf" id="1_yj23r"]
+[ext_resource type="FontFile" uid="uid://lxtj87v7ax4c" path="res://font/DroidSansArabic.ttf" id="2_hnlrv"]
+[ext_resource type="FontFile" uid="uid://dbeljeate463g" path="res://font/DroidSansFallback.ttf" id="3_4me2u"]
+[ext_resource type="FontFile" uid="uid://btl0lci5ayhb3" path="res://font/DroidSansHebrew.ttf" id="4_amo2t"]
+[ext_resource type="FontFile" uid="uid://fp1m8ppbr5kp" path="res://font/DroidSansJapanese.ttf" id="5_ca3ou"]
+[ext_resource type="FontFile" uid="uid://c0uxm146glg3t" path="res://font/DroidSansThai.ttf" id="6_ur21m"]
+
+[resource]
+fallbacks = Array[Font]([ExtResource("2_hnlrv"), ExtResource("3_4me2u"), ExtResource("4_amo2t"), ExtResource("5_ca3ou"), ExtResource("6_ur21m")])
+base_font = ExtResource("1_yj23r")
