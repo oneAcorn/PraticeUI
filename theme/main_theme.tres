@@ -5,3 +5,9 @@
 [resource]
 default_font = ExtResource("1_afw5t")
 default_font_size = 0
+Button/colors/font_color = Color(0.057219602, 0.99999994, 0.9733308, 1)
+MyButton/base_type = &"Button"
+MyButton/colors/font_color = Color(0.88779026, 0.47914118, 0.062295556, 1)
+main_theme_data/colors/content_color = Color(0, 0, 0, 1)
+main_theme_data/colors/main_color = Color(1, 0.6044251, 0.70367324, 1)
+main_theme_data/colors/title_color = Color(0.9311919, 0.04508938, 0.5188994, 1)

@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://d23eyipa4rxpw"]
 
 [ext_resource type="Script" uid="uid://dcev8lkuif63y" path="res://my_container.gd" id="1_fyqef"]
+[ext_resource type="Script" uid="uid://ca5cc3kk6fb0u" path="res://ui.gd" id="1_m6e0p"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xb563"]
 content_margin_left = 10.0
@@ -27,6 +28,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_m6e0p")
 
 [node name="Label" type="Label" parent="." unique_id=959715404]
 layout_mode = 0
@@ -58,3 +60,12 @@ script = ExtResource("1_fyqef")
 [node name="Button" type="Button" parent="Container" unique_id=1399942266]
 layout_mode = 2
 text = "sdagasdg"
+
+[node name="Button2" type="Button" parent="." unique_id=1598868678]
+layout_mode = 0
+offset_left = 429.0
+offset_top = 35.0
+offset_right = 527.0
+offset_bottom = 80.0
+theme_type_variation = &"MyButton"
+text = "Button2"
